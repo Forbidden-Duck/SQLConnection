@@ -13,7 +13,7 @@ Assistance was provided by one of the TAFE Teachers, who will not be named for p
 
 This project will serve as a template for other projects that require an SQLConnection.
 
-Code has not been appropriately commented at this moment in time. If any confusions comes from the code refer to "Support or Contact"
+Code has been appropriately commented. If any confusions comes from the code refer to "Support or Contact"
 
 ### Support or Contact
 

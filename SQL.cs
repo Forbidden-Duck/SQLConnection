@@ -410,8 +410,10 @@ namespace SQLConnection {
                     adapt.Fill(dtable);
 
                     // Provide the column that the Primary Key is in
+                    // Change the primay key type to int (sometimes it reads it as a String)
                     // Auto increment the Primary Key
                     dtable.PrimaryKey = new DataColumn[] { dtable.Columns[0] };
+                    dtable.Columns[0].DataType = typeof(int);
                     dtable.Columns[0].AutoIncrement = true;
 
                     // If the Data Table row count is greater than 0
